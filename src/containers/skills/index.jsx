@@ -6,7 +6,7 @@ const Skills = () => {
         <section id="about" className="about">
 
             <PageHeaderContent
-                headerText="About Me"
+                headerText="My Skills"
                 icon={<BsInfoCircleFill size={40} />}
             ></PageHeaderContent>
         </section>

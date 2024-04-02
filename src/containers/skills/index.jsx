@@ -9,6 +9,7 @@ import "./style.scss";
 
 const data = [
     {
+       icon:<i class="fa-brands fa-html5"></i>,
        tech:"HTML",
        tag:"frontend",
     },
@@ -70,7 +71,7 @@ const data = [
          tag:"tool"
      },
      {
-        tech:"postman",
+        tech:"Postman",
         tag:"tool"
      }
 
@@ -98,7 +99,7 @@ const Skills = () => {
                     {
                         frontendArray.map((item)=>{
                             return(
-                               <p>{item.tech}</p>
+                               <p><i className="fa-brands fa-html5"></i>{item.tech}</p>
                             )
                            
                         })
@@ -132,7 +133,7 @@ const Skills = () => {
                     </div>
                 </div>
                 <div className="skill__container">
-                    <h1> &nbsp; TOOLS&nbsp;</h1>
+                    <h1> &nbsp; TOOLS &nbsp;</h1>
                     <div className="skill__container__innerContent">
                         {
                             tools.map(item=>{

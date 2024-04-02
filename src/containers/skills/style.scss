@@ -31,6 +31,7 @@
             justify-content: center;
             align-items: center;
             font-size:25px;
+            color: var(--yellow-theme-sub-text-color);
             
             
           }
@@ -39,7 +40,7 @@
     }
 }
 
-@media only screen and (max-width : 900px){
+@media only screen and (max-width : 1000px){
   .skill{
     display: block;
     &__container{
